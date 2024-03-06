@@ -207,7 +207,7 @@ section{
 .services-container .services-box{
     flex: 1 1 30rem;
     background: var(--second-bg-color);
-    padding: 3rem 2rem 4rem;
+    padding: 10px;
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
@@ -219,9 +219,8 @@ section{
     transform: scale(1.02);
 }
 
-.services-box i{
-    font-size: 7rem;
-    color: var(--main-color);
+.services-box img{
+    width:50px;
 }
 .services-box h3{
     font-size: 2.6rem;
@@ -261,6 +260,7 @@ section{
 
 .portfolio-box:hover img{
     transform: scale(1.1);
+    opacity:0.2;
 }
 
 .portfolio-box .portfolio-layer{
