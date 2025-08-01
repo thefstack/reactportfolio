@@ -1,72 +1,103 @@
-#Deployed Link:- https://portfoliothefstack.netlify.app/
+# 🎨 Personal Portfolio Website
 
-# Getting Started with Create React App
+A dynamic, interactive, and animated **developer portfolio** built with **React.js**. It showcases personal projects, services, and contact information with smooth scroll effects, typing animations, and responsive design.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This is a **personal prototype project** built by Raj Sharma to demonstrate frontend skills and portfolio presentation.
+### Deployed Link:- https://portfoliothefstack.netlify.app/
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 👋 Hero section with animated typing effect
+- 🎯 Scroll-based animations with ScrollReveal.js
+- 🧑‍💼 About and Services sections
+- 🖼 Project showcase with live links
+- 📞 Contact form UI
+- 📱 Fully responsive layout
+- 📜 Sticky header and scroll spy navigation
+- 🔗 CV download link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧰 Tech Stack
 
-### `npm test`
+- **React**
+- **CSS (custom + animations)**
+- **ScrollReveal.js** for scroll animations
+- **Typed.js** for typing effect
+- **Boxicons** for icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+.
+├── components/
+│   ├── App.js              # Main component with all sections
+│   ├── Header.js           # Navigation bar
+│   ├── Neck.js             # Hero section
+│   ├── About.js
+│   ├── Services.js
+│   ├── Portfolio.js        # Project listing
+│   ├── PortfolioBox.js     # Individual project component
+│   ├── Contact.js
+│   └── Footer.js
+├── projects.js             # Project data array
+├── app.css                 # Global styles
+├── index.js                # Entry point
+└── public/images/          # Image assets for portfolio
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started
 
-### `npm run eject`
+### 1. Clone the Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/yourusername/portfolio-prototype.git
+cd portfolio-prototype
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Install Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Run the App
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open `http://localhost:3000` in your browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🌐 Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Portfolio Sample](https://portfoliosamplethefstack.netlify.app/)
+- [Ecommerce Project](https://first-ecommerce-thefstack.netlify.app)
+- [Rocket Health](https://rockethealththefstack.netlify.app)
+- [Biotique Clone](https://biotequethefstack.netlify.app)
+- [School Admin Panel](https://school-project-jsev.onrender.com/adminlogin)
+- [Math Game](https://mathgamethefstack.netlify.app)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📦 External Libraries Used
 
-### Making a Progressive Web App
+- [`scrollreveal`](https://scrollrevealjs.org/)
+- [`typed.js`](https://github.com/mattboldt/typed.js/)
+- [`boxicons`](https://boxicons.com/) for icon fonts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🧠 Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Ensure all image paths in `public/images/` are correct.
+- This is not meant for production use; animations and interactions are for demonstration.
+- You can easily expand this into a full-featured portfolio or personal site.
